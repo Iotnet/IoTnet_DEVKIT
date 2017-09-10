@@ -6,7 +6,7 @@
 
 -	[Ejemplos](#ejemplos)
 
-	-	[Leer ID/PAC](#leer-id/pac)
+	-	[Leer ID/PAC](#leer-idpac)
 
 	-	[Utilizar Boton y led](#utilizar-boton-y-led)
 
