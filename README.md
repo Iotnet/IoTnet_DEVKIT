@@ -32,15 +32,15 @@ A continuación se presentan varios ejemplos donde se utilizan las entradas anal
 
 En este ejemplo se utilizará el sketch devkit_info.ino ([Code](Ejemplos/devkit_info/devkit_info.ino)) para leer el ID y el PAC de nuestro Devkit, los cuales son necesarios para registrar el dispositivo en la plataforma de Sigfox y poder ver los mensajes enviados en el backend. Una vez descargado el sketch, procedemos a cargarlo en nuestra tarjeta. Primero, se deben de quitar los jumpers tal como se muestra en la imagen de abajo. Este procedimiento debe hacerse siempre que se desee cargar un programa a la tarjeta.
 
-![dev1](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/devk1.png?raw=true)
+![dev1](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev1.png?raw=true)
 
 Despues, verificamos o compilamos el programa y lo cargamos a la tarjeta. Volver a poner los jumpers para reestablecer la comunicacion entre el microcontrolador y el modulo Wisol. Abrimos el Monitor Serie 
 
-![dev2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/devk2.png?raw=true)
+![dev2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev2.png?raw=true)
 
 Presionamos el botón más cercano al Led que se encuentra encendido y en el monitor serial nos aparecerá la información sobre el ID y el PAC de nuestro Devkit.
 
-![dev3](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/devk3.png?raw=true)
+![dev3](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev3.png?raw=true)
 
 ### Utilizar boton y led
 
