@@ -42,10 +42,12 @@ Presionamos el botón más cercano al Led que se encuentra encendido y en el mon
 
 ![dev3](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev3.png?raw=true)
 
-Ahora que tenemos el ID y el Pac de nuestro dispositivo, procedemos a darlo de alta en el backend. Una vez registrado, procedemos a enviar nuestro primer mensaje. Presionamos nuevamente el boton y nos desplegara la misma información que antes. Notar que dos leds de status del modulo Wisol parpadearan 3 veces, lo que indica que se estan enviando los mensajes. Si nos vamos al backend, veremos el mensaje que acabamos de enviar.
+Ahora que tenemos el ID y el Pac de nuestro dispositivo, procedemos a darlo de alta en el backend. Una vez registrado, podemos enviar nuestro primer mensaje, lo cual podemos hacer con el mismo programa. Presionamos nuevamente el boton y nos desplegara la misma información que antes. Notar que los leds de status del modulo Wisol parpadearan 3 veces, lo que indica que se estan enviando los mensajes. Si nos vamos al backend, veremos el mensaje que acabamos de enviar.
 
 ![dev4](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev4.png?raw=true)
 
-### Utilizar boton y led
+### Utilizando el boton y led
 
-En este ejemplo se Utilizará el sketch boton_led.ino ([Code](Ejemplos/boton_led/boton_led.ino)) para utilizar el botón y el led que ya trae el Devkit dentro de un programa. Una vez cargado el programa, al presionar el botón, el Led 6 se encenderá por 2 segundos para despues apagarse.
+En este ejemplo se Utilizará el sketch boton_led.ino ([Code](Ejemplos/boton_led/boton_led.ino)) para utilizar el botón y el led que trae el Devkit dentro de un programa. Una vez cargado el programa, al presionar el botón, el Led 6 se encenderá por 2 segundos para despues apagarse.
+
+![dev5](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev5.png?raw=true)
