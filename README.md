@@ -18,5 +18,5 @@ En la siguiente imagen se muestra el pinout del Devkit, de manera que se puedan 
 
 ## Ejemplo 1 ##
 
-En este ejemplo se utilizará el sketch devkit_info[Code](Ejemplos/devkit_info/devkit_info.ino) para leer el ID y el PAC de nuestro Devkit, los cuales son necesarios para registrar el dispositivo en la plataforma de Sigfox y poder ver los mensajes enviados en el backend.
+En este ejemplo se utilizará el sketch devkit_info ([Code](Ejemplos/devkit_info)) para leer el ID y el PAC de nuestro Devkit, los cuales son necesarios para registrar el dispositivo en la plataforma de Sigfox y poder ver los mensajes enviados en el backend.
 
