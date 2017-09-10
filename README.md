@@ -9,7 +9,7 @@ IoTnet_DEVKIT
 
 	-	[Leer ID/PAC](#leer-idpac)
 
-	-	[Utilizar Boton y led](#utilizar-boton-y-led)
+	-	[Boton y led](#boton-y-led)
 
 Introducción
 ------------
@@ -46,7 +46,7 @@ Ahora que tenemos el ID y el Pac de nuestro dispositivo, procedemos a darlo de a
 
 ![dev4](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev4.png?raw=true)
 
-### Utilizando el boton y led
+### Boton y led
 
 Este ejemplo nos permitira conocer cuales son los puertos a los que estan conectados el boton y el led 6 para poder utilizarlos en otros programas. Se utilizará el sketch boton_led.ino ([Code](Ejemplos/boton_led/boton_led.ino)). Una vez cargado el programa, al presionar el botón, el Led 6 se encenderá por 2 segundos para despues apagarse.
 
