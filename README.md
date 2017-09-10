@@ -4,7 +4,7 @@
 
 -	[Pinout](#pinout)
 
--	[Ejemplo 1. Leer ID/PAC](#ejemplo-1.-leer-id/pac)
+-	[Ejemplo 1. Leer ID/PAC](#ejemplo-1.-leer-ID/PAC)
 
 -	[Ejemplo 2: boton y led](#ejemplo-2:-boton-y-led)
 
