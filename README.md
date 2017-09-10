@@ -4,6 +4,10 @@
 
 -	[Pinout](#pinout)
 
+-	[Ejemplo 1](#ejemplo 1)
+
+-	[Ejemplo 2](#ejemplo 2)
+
 ## Introducción ##
 
 Proyecto para aprender a utilizar el Devkit de desarrollo de IoTnet, el cual trae un módulo Wisol de conectividad Sigfox y un microprocesador ATmega 328P, por lo que puede programarse mediante el IDE de Arduino.
@@ -18,5 +22,8 @@ En la siguiente imagen se muestra el pinout del Devkit, de manera que se puedan 
 
 ## Ejemplo 1 ##
 
-En este ejemplo se utilizará el sketch devkit_info ([Code](Ejemplos/devkit_info)) para leer el ID y el PAC de nuestro Devkit, los cuales son necesarios para registrar el dispositivo en la plataforma de Sigfox y poder ver los mensajes enviados en el backend.
+En este ejemplo se utilizará el sketch devkit_info.ino ([Code](Ejemplos/devkit_info/devkit_info.ino)) para leer el ID y el PAC de nuestro Devkit, los cuales son necesarios para registrar el dispositivo en la plataforma de Sigfox y poder ver los mensajes enviados en el backend.
 
+## Ejemplo 2 ##
+
+En este ejemplo se Utilizará el sketch boton_led.ino ([Code](Ejemplos/boton_led/boton_led.ino)) para utilizar el botón y el led que ya trae el Devkit dentro de un programa. Una vez cargado el programa, al presionar el botón, el Led 6 se encenderá por 2 segundos para despues apagarse.
