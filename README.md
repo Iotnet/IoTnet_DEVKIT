@@ -34,13 +34,17 @@ En este ejemplo se utilizará el sketch devkit_info.ino ([Code](Ejemplos/devkit_
 
 ![dev1](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev1.png?raw=true)
 
-Despues, verificamos o compilamos el programa y lo cargamos a la tarjeta. Volver a poner los jumpers para reestablecer la comunicacion entre el microcontrolador y el modulo Wisol. Abrimos el Monitor Serie 
+Despues, verificamos o compilamos el programa y lo cargamos a la tarjeta. Volvemos a poner los jumpers para reestablecer la comunicacion entre el microcontrolador y el modulo Wisol y abrimos el Monitor Serie 
 
 ![dev2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev2.png?raw=true)
 
 Presionamos el botón más cercano al Led que se encuentra encendido y en el monitor serial nos aparecerá la información sobre el ID y el PAC de nuestro Devkit.
 
 ![dev3](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev3.png?raw=true)
+
+Ahora que tenemos el ID y el Pac de nuestro dispositivo, procedemos a darlo de alta en el backend. Una vez registrado, procedemos a enviar nuestro primer mensaje. Presionamos nuevamente el boton y nos desplegara la misma información que antes. Notar que dos leds de status del modulo Wisol parpadearan 3 veces, lo que indica que se estan enviando los mensajes. Si nos vamos al backend, veremos el mensaje que acabamos de enviar.
+
+![dev4](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev4.png?raw=true)
 
 ### Utilizar boton y led
 
