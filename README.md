@@ -1,8 +1,8 @@
 ## IoTnet_DEVKIT ##
 
--	[introduccion](#Introducción)
+-	[introducción](#introduccion)
 
--	[pinout](#Pinout)
+-	[Pinout](#pinout)
 
 ## Introducción ##
 
