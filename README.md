@@ -14,4 +14,4 @@ A lo largo de este proyecto, se presentaran algunos ejemplos para demostrar lo f
 
 En la siguiente imagen se muestra el pinout del Devkit, de manera que se puedan asociar las terminales de la tarjeta con las utilizadas en Arduino Uno.
 
-![devkit_pinout](https://github.com/Iotnet/IoTnet_DEVKIT/tree/master/images/devkit_pinout.jpg?raw=true)
+![devkit_pinout](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/devkit_pinout.jpg?raw=true)
