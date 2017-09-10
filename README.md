@@ -4,7 +4,7 @@
 
 -	[Pinout](#pinout)
 
--	[Ejemplo 1: leer ID/PAC](#ejemplo-1:-leer-ID/PAC)
+-	[Ejemplo 1. Leer ID/PAC](#ejemplo-1.-leer-id/pac)
 
 -	[Ejemplo 2: boton y led](#ejemplo-2:-boton-y-led)
 
@@ -20,7 +20,7 @@ En la siguiente imagen se muestra el pinout del Devkit, de manera que se puedan 
 
 ![devkit_pinout](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/devkit_pinout.jpg?raw=true)
 
-## Ejemplo 1: leer ID/PAC ##
+## Ejemplo 1. Leer ID/PAC ##
 
 En este ejemplo se utilizará el sketch devkit_info.ino ([Code](Ejemplos/devkit_info/devkit_info.ino)) para leer el ID y el PAC de nuestro Devkit, los cuales son necesarios para registrar el dispositivo en la plataforma de Sigfox y poder ver los mensajes enviados en el backend.
 
