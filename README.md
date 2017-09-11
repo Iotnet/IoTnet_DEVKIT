@@ -62,4 +62,4 @@ En este ejemplo se mostrará como conectar un sensor de distancia al Devkit y ma
 
 Descargamos el sketch sensor_distancia1.ino ([Code](Ejemplos/sensor_distancia1/sensor_distancia1.ino)) y lo cargamos en la tarjeta siguiendo el procedimiento descrito anteriormente. Ponemos un objeto enfrente del sensor
 
-![dev6](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev6?raw=true)
+![dev6](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev6.png?raw=true)
