@@ -13,6 +13,8 @@ Descargar el sketch ([Code](Ejemplos/sensor_temperatura/sensor_temperatura.ino))
 
 el cual debe ser conectado siguiendo el siguiente diagrama
 
+![temp2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/temp2.png?raw=true)
+
 Una vez cargado el programa, abrimos el monitor serial y nos desplegara la información de la temperatura cada 5 minutos
 
 ![dev8](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev8.png?raw=true)
