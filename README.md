@@ -7,7 +7,11 @@ IoTnet_DEVKIT=============-	[Introducción](#introducción)-	[Pinout](#pino
 
 En este ejemplo se mostrará como leer un sensor analógico además de realizar la codificación del dato antes de ser enviado y ya en el backend, se realizará la decodificación para poder visualizar la información en forma decimal. 
 
-Descargar el sketch ([Code](Ejemplos/sensor_temperatura/sensor_temperatura.ino)). El sensor utilizado en este ejemplo es el TMP36, el cual debe ser conectado siguiendo el siguiente diagrama
+Descargar el sketch ([Code](Ejemplos/sensor_temperatura/sensor_temperatura.ino)). El sensor utilizado en este ejemplo es el TMP36
+
+![tmp36](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/tmp36.jpg?raw=true)
+
+el cual debe ser conectado siguiendo el siguiente diagrama
 
 Una vez cargado el programa, abrimos el monitor serial y nos desplegara la información de la temperatura cada 5 minutos
 
