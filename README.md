@@ -60,6 +60,16 @@ En este ejemplo se mostrará como conectar un sensor de distancia al Devkit y ma
 
 ![sensor_distancia](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/sensor_distancia.jpg?raw=true)
 
-Descargamos el sketch sensor_distancia1.ino ([Code](Ejemplos/sensor_distancia1/sensor_distancia1.ino)) y lo cargamos en la tarjeta siguiendo el procedimiento descrito anteriormente. Ponemos un objeto enfrente del sensor
+Descargamos el sketch sensor_distancia1.ino ([Code](Ejemplos/sensor_distancia1/sensor_distancia1.ino)) y lo cargamos en la tarjeta siguiendo el procedimiento descrito anteriormente. 
+
+Ponemos un objeto enfrente del sensor
 
 ![dev6](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev6.png?raw=true)
+
+y abrimos el monitor serial de Arduino. Inmediatamente nos mostrara la distacia medida entre el sensor y el objeto
+
+![dev7](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev7.png?raw=true)
+
+Si revisamos el backend, veremos que cada mensaje nos mostrara la misma informacion de la distacia que la mostrada en el monitor serie
+
+![back1](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/back1.png?raw=true)
