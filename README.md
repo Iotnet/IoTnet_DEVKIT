@@ -5,6 +5,8 @@ IoTnet_DEVKIT
 
 -	[Pinout](#pinout)
 
+-	[Programación](#programacion)
+
 -	[Ejemplos](#ejemplos)
 
 	-	[Leer ID/PAC](#leer-idpac)
@@ -26,17 +28,23 @@ En la siguiente imagen se muestra el pinout del Devkit, de manera que se puedan 
 
 ![devkit_pinout](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/devkit_pinout.jpg?raw=true)
 
+Programación
+------------
+
+Para cargar un programa a la tarjeta, primero se deben quitar los jumpers tal como se muestra en la imagen
+
+![dev1](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev1.png?raw=true)
+
+una vez que se cargó el programa, se vuelven a colocar los jumpers. Este procedimiento debe realizarse cada vez que se desee cargar un programa al Devkit.
+
 Ejemplos
 --------
 A continuación se presentan varios ejemplos donde se utilizan las entradas analogicas y digitales, además de los dispositivos integrados en el Devkit.  
 
 ### Leer ID/PAC
 
-En este ejemplo se utilizará el sketch devkit_info.ino ([Code](Ejemplos/devkit_info/devkit_info.ino)) para leer el ID y el PAC de nuestro Devkit, los cuales son necesarios para registrar el dispositivo en la plataforma de Sigfox y poder ver los mensajes enviados en el backend. Una vez descargado el sketch, procedemos a cargarlo en nuestra tarjeta. Primero, se deben de quitar los jumpers tal como se muestra en la imagen de abajo. Este procedimiento debe hacerse siempre que se desee cargar un programa a la tarjeta.
-
-![dev1](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev1.png?raw=true)
-
-Despues, verificamos o compilamos el programa y lo cargamos a la tarjeta. Volvemos a poner los jumpers para reestablecer la comunicacion entre el microcontrolador y el modulo Wisol y abrimos el Monitor Serie 
+En este ejemplo se utilizará el sketch devkit_info.ino ([Code](Ejemplos/devkit_info/devkit_info.ino)) para leer el ID y el PAC de nuestro Devkit, los cuales son necesarios para registrar el dispositivo en la plataforma de Sigfox y poder ver los mensajes enviados en el backend. Una vez descargado el sketch, procedemos a cargarlo en nuestra tarjeta siguiendo el procedimiento descrito anteriormente.
+Abrimos el Monitor Serie 
 
 ![dev2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev2.png?raw=true)
 
