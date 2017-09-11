@@ -10,6 +10,8 @@ IoTnet_DEVKIT
 	-	[Leer ID/PAC](#leer-idpac)
 
 	-	[Boton y led](#boton-y-led)
+	
+	-	[Sensor de distancia](#sensor de distancia)
 
 Introducción
 ------------
@@ -51,3 +53,13 @@ Ahora que tenemos el ID y el Pac de nuestro dispositivo, procedemos a darlo de a
 Este ejemplo nos permitira conocer cuales son los puertos a los que estan conectados el boton y el led 6 para poder utilizarlos en otros programas. Se utilizará el sketch boton_led.ino ([Code](Ejemplos/boton_led/boton_led.ino)). Una vez cargado el programa, al presionar el botón, el Led 6 se encenderá por 2 segundos para despues apagarse.
 
 ![dev5](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev5.png?raw=true)
+
+### Sensor de distancia
+
+En este ejemplo se mostrará como conectar un sensor de distancia al Devkit y mandar por medio de Sigfox, la distancia medida entre el sensor y un objeto, de manera que pueda visualizarse en el backend. El sensor que se utilizará es el HC-SRQ4. Conectamos el sensor de acuerdo al siguiente diagrama
+
+![sensor_distancia](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/sensor_distancia.jpg?raw=true)
+
+Descargamos el sketch sensor_distancia1.ino ([Code](Ejemplos/sensor_distancia1/sensor_distancia1.ino)) y lo cargamos en la tarjeta siguiendo el procedimiento descrito anteriormente. Ponemos un objeto enfrente del sensor
+
+![dev6](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev6?raw=true)
