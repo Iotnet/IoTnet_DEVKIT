@@ -13,7 +13,7 @@ IoTnet_DEVKIT
 
 	-	[Boton y led](#boton-y-led)
 	
-	-	[Sensor de distancia](#sensor de distancia)
+	-	[Sensor de distancia](#sensor-de-distancia)
 
 Introducción
 ------------
