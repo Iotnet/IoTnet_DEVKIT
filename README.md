@@ -74,10 +74,10 @@ Ponemos un objeto frente al sensor
 
 ![dev6](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev6.png?raw=true)
 
-y abrimos el monitor serial de Arduino. Inmediatamente nos mostrara la distacia medida entre el sensor y el objeto
+y abrimos el monitor serial de Arduino. Inmediatamente nos mostrara la distancia medida entre el sensor y el objeto
 
 ![dev7](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev7.png?raw=true)
 
-Si revisamos el backend, veremos que cada mensaje nos mostrara la misma informacion de la distacia que la mostrada en el monitor serie
+Si revisamos el backend, veremos que cada mensaje nos mostrara la misma informacion de la distancia que la mostrada en el monitor serie
 
 ![back1](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/back1.png?raw=true)
