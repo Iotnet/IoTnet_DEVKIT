@@ -31,7 +31,7 @@ void leer_sensor()
   int sensorVal=analogRead(sensorPin);
   float voltaje=(sensorVal/1024.0)*5.0;
   Serial.print("Grados Cº: ");
-  float temp=((voltaje-0.5)*100)+1;
+  float temp=((voltaje)*100)+1;
   Serial.println(temp);
   //convierte el dato a bytes y lo agrega a nuestro mensaje a enviar
   byte* a1 = (byte*) &temp;  
