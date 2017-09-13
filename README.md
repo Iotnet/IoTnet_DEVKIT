@@ -147,6 +147,39 @@ Damos click en 'Add Webhook' y aparecerá la siguiente ventana en donde configur
  
 ![webhook2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/webhook2.png?raw=true)
 
-Mas abajo marcamos la opción 'Wait for reply from workflow'
+Mas abajo marcamos la opción 'Wait for reply from workflow' y seguido damos click en 'Create Webhook"
 
 ![webhook4](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/webhook4.png?raw=true)
+
+Notaremos que al momento de crearlo nos genera una URL: 
+
+![webhook5](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/webhook5.png?raw=true)
+
+Esta URL la copiaremos y guardaremos para usarla posteriormente para configurar el callback de Sigfox
+
+## Device
+
+Ahora, configuraremos el device en donde Losant guardará los datos provenientes de Sigfox
+En nuestra pantalla principal de la aplicacion, daremos click en 'Devices', seguido daremos click en 'Create new device'
+
+![createdev](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/createdev.png?raw=true)
+
+Damos click en 'Create blank device'
+
+![createdev1](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/createdev1.png?raw=true)
+
+En el Device Name podemos poner el nombre que queramos pero de preferencia que indentifique a nuestro dispositivo
+Marcamos la casilla 'Standalone' en el Device Type
+
+![createdev2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/createdev2.png?raw=true)
+
+En la parte de atributos colocamos: 
+
+![createdev3](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/createdev3.png?raw=true)
+
+Debemos de tener en cuenta que información estamos leyendo y enviando desde el dispositivo.
+En este caso estamos enviando unicamente la temperatura del sensor por lo que el tipo de dato que recibira Losant será un número y el nombre de la variable puede ser cualquier pero de nuevo una que identifique nuestra información.
+
+
+
+
