@@ -181,5 +181,27 @@ Debemos de tener en cuenta que información estamos leyendo y enviando desde el 
 En este caso estamos enviando unicamente la temperatura del sensor por lo que el tipo de dato que recibira Losant será un número y el nombre de la variable puede ser cualquier pero de nuevo una que identifique nuestra información.
 
 
+## Workflow
+
+Ahora es turno de configurar el diagrama de flujo para que una vez que Losant reciba la información sepa que hacer con ella.
+
+En nuestro menú principal de la aplicación damos click en 'Workflows', seguido damos click en 'Create Workflow'
+
+Le damos el nombre que nosotros queramos y opcionalmente podemos asignarle una descripción.
+Seguido damos click en 'Create Workflow'
+
+Notaremos que nos abrirá un espacio de trabajo donde podremos crear nuestro diagrama de flujo.
+
+Del lado izquierdo nos muestra todos los nodos disponibles. Tales como 'Triggers', 'User Experience', 'Data', etc.
+
+Debido a que nuestra información esta llegando por medio de un Webhook, el diagrama de flujo se activará cada que llegue información a ese Webhook que creamos.
+
+Por lo tanto, en el lado izquierdo en la sección de 'Triggers' buscamos por el nodo 'Webhook'
+![workflow](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/workflow.png?raw=true)
+Lo arrastramos y pegamos a nuestro espacio de trabajo.
+![workflow1](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/workflow1.png?raw=true)
+
+Ahora, buscaremos el nodo 'Debug'. Este nodo nos sirve para observar que esta sucediendo en determinada parte del diagrama de flujo. Lo conectaremos debajo de nuestro nosotro 'Webhook' para poder observar que información llega al Webhook.
+![workflow2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/workflow2.png?raw=true)
 
 
