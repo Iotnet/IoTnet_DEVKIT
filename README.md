@@ -138,6 +138,15 @@ Dentro de nuestra aplicacíon configuraremos 3 cosas:
 
 ## Webhook
 
-Dentro de nuestra aplicación nos dirigimos a la pestaña 'Webhook' y damos click.
+Dentro de nuestra aplicación nos dirigimos a la pestaña 'Webhooks' y damos click.
 
 ![webhook](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/webhook.png?raw=true)
+
+Damos click en 'Add Webhook' y aparecerá la siguiente ventana en donde configuraremos lo siguiente: 
+ - El nombre de nuevo puede ser cualquiera y lo demás lo dejamos con la misma configuración
+ 
+![webhook2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/webhook2.png?raw=true)
+
+Mas abajo marcamos la opción 'Wait for reply from workflow'
+
+![webhook4](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/webhook4.png?raw=true)
