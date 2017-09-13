@@ -121,7 +121,7 @@ Ahora que el backend está recibiendo los mensajes del módulo. Procederemos a v
 
 
 Comenzaremos por crear una cuenta gratuita. Ésta nos permite registrar hasta 100 dispositivos y enviar hasta 1M de payloads.
-Creada la cuenta crearemos una nueva aplicación.
+Creada la cuenta crearemos una nueva aplicación. Además es facil de usar ya que se configura por medio de diagramas de flujo.
 
 ![create](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/create.png?raw=true)
 
@@ -129,3 +129,15 @@ EL nombre de la aplicación puede ser cualquiera. Pero que sea facil de reconoce
 Seguido daremos click en 'Create Application'
 
 ![create2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/create2.png?raw=true)
+
+Dentro de nuestra aplicacíon configuraremos 3 cosas: 
+
+1: Webhook - Url en donde se enviarán todos los datos desde el backend a la plataforma
+2: Device - Dispositivo en donde Losant guardará la informacion proveniente del Devkit para posteriormente mostrarla en un dashboard
+3: Workflow - Diagrama de flujo que se activará cada vez que haya un request por parte del backend de Sigfox
+
+## Webhook
+
+Dentro de nuestra aplicación nos dirigimos a la pestaña 'Webhook' y damos click.
+
+![webhook](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/webhook.png?raw=true)
