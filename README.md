@@ -197,11 +197,15 @@ Del lado izquierdo nos muestra todos los nodos disponibles. Tales como 'Triggers
 Debido a que nuestra información esta llegando por medio de un Webhook, el diagrama de flujo se activará cada que llegue información a ese Webhook que creamos.
 
 Por lo tanto, en el lado izquierdo en la sección de 'Triggers' buscamos por el nodo 'Webhook'
+
 ![workflow](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/workflow.png?raw=true)
+
 Lo arrastramos y pegamos a nuestro espacio de trabajo.
+
 ![workflow1](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/workflow1.png?raw=true)
 
-Ahora, buscaremos el nodo 'Debug'. Este nodo nos sirve para observar que esta sucediendo en determinada parte del diagrama de flujo. Lo conectaremos debajo de nuestro nosotro 'Webhook' para poder observar que información llega al Webhook.
+Ahora, buscaremos el nodo 'Debug'. Este nodo nos sirve para observar que esta sucediendo en determinada parte del diagrama de flujo. Lo conectaremos debajo de nuestro 'Webhook' para poder observar que información llega.
+
 ![workflow2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/workflow2.png?raw=true)
 
 
