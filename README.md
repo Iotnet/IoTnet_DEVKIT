@@ -114,9 +114,16 @@ Revisando los mensajes del dispositivo, veremos que ahora debajo del dato enviad
 
 Integración
 -----------
-## Losant
+
+### Losant
 
 Ahora que el backend está recibiendo los mensajes del módulo. Procederemos a visualizar los datos en [Losant](https://www.losant.com/), plataforma dedicada al internet de las cosas. En donde se pueden visualizar, analizar datos provenientes de dispositivos IoT.
 
 
-Comenzaremos por crear una cuenta
+Comenzaremos por crear una cuenta gratuita. Ésta nos permite registrar hasta 100 dispositivos y enviar hasta 1M de payloads.
+Creada la cuenta crearemos una nueva aplicación:
+![create](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/create.png?raw=true)
+
+EL nombre de la aplicación puede ser cualquiera. Pero que sea facil de reconocer. 
+Seguido daremos click en 'Create Application'
+
