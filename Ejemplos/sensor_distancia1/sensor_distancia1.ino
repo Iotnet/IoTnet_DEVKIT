@@ -48,14 +48,14 @@ void leer_distancia()
   distancia = duracion / 2 / 29.1  ;
   Serial.println(String(distancia) + " cm.") ;
   dist.number=(uint16_t)(distancia);
-  if (distancia<10)
+  if (distancia<16)
   {
     bufer+=0;
-    bufer+=distancia;
+    bufer+=String(distancia,HEX);
   }
   else
   {
-    bufer+=distancia;
+    bufer+=String(distancia,HEX);
   }
   bufer.toCharArray(payload,12);
   digitalWrite(7, HIGH);
