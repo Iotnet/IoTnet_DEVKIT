@@ -17,7 +17,7 @@ IoTnet_DEVKIT
 
 	-	[Sensor de Temperatura](#sensor-de-temperatura)
 	
-	[Integración en Losant](#integracion-en-losant)
+	-	[Integración en Losant](#integracion-en-losant)
 
 Introducción
 ------------
@@ -112,10 +112,8 @@ Revisando los mensajes del dispositivo, veremos que ahora debajo del dato enviad
 ![dev9](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev9.png?raw=true)
 
 
-Integración
+Integración en Losant
 -----------
-
-### Losant
 
 Ahora que el backend está recibiendo los mensajes del módulo. Procederemos a visualizar los datos en [Losant](https://www.losant.com/), plataforma dedicada al internet de las cosas. En donde se pueden visualizar, analizar datos provenientes de dispositivos IoT.
 
