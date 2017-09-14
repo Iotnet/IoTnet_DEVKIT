@@ -17,7 +17,7 @@ IoTnet_DEVKIT
 
 	-	[Sensor de Temperatura](#sensor-de-temperatura)
 	
--	[Integración en Losant](#integración-en-losant)
+		-	[Integración en Losant](#integración-en-losant)
 
 Introducción
 ------------
