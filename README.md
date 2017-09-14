@@ -17,7 +17,7 @@ IoTnet_DEVKIT
 
 	-	[Sensor de Temperatura](#sensor-de-temperatura)
 	
-		-	[Integración en Losant](#integración-en-losant)
+-	[Integración en Losant](#integración-en-losant)
 
 Introducción
 ------------
@@ -114,6 +114,7 @@ Revisando los mensajes del dispositivo, veremos que ahora debajo del dato enviad
 
 Integración en Losant
 ---------------------
+Para esta parte utilizaremos el ejemplo del sensor de temperatura anterior. 
 
 Ahora que el backend está recibiendo los mensajes del módulo. Procederemos a visualizar los datos en [Losant](https://www.losant.com/), plataforma dedicada al internet de las cosas. En donde se pueden visualizar, analizar datos provenientes de dispositivos IoT.
 
@@ -134,7 +135,7 @@ Dentro de nuestra aplicacíon configuraremos 3 cosas:
 2: Device - Dispositivo en donde Losant guardará la informacion proveniente del Devkit para posteriormente mostrarla en un dashboard
 3: Workflow - Diagrama de flujo que se activará cada vez que haya un request por parte del backend de Sigfox
 
-## Webhook
+### Webhook
 
 Dentro de nuestra aplicación nos dirigimos a la pestaña 'Webhooks' y damos click.
 
@@ -155,7 +156,7 @@ Notaremos que al momento de crearlo nos genera una URL:
 
 Esta URL la copiaremos y guardaremos para usarla posteriormente para configurar el callback de Sigfox
 
-## Device
+### Device
 
 Ahora, configuraremos el device en donde Losant guardará los datos provenientes de Sigfox
 En nuestra pantalla principal de la aplicacion, daremos click en 'Devices', seguido daremos click en 'Create new device'
@@ -179,7 +180,7 @@ Debemos de tener en cuenta que información estamos leyendo y enviando desde el 
 En este caso estamos enviando unicamente la temperatura del sensor por lo que el tipo de dato que recibira Losant será un número y el nombre de la variable puede ser cualquier pero de nuevo una que identifique nuestra información.
 
 
-## Workflow
+### Workflow
 
 Ahora es turno de configurar el diagrama de flujo para que una vez que Losant reciba la información sepa que hacer con ella.
 
@@ -206,4 +207,20 @@ Ahora, buscaremos el nodo 'Debug'. Este nodo nos sirve para observar que esta su
 
 ![workflow2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/workflow2.png?raw=true)
 
+Dejaremos esta parte pendiente para continuar configurando el backend en Sigfox.
+
+
+### Backend 
+
+Para esta parte es necesario haber registrado el dispositivo en el backend de Sigfox.
+Daremos click en 'Device Type' y buscamos por nuestro dispositivo registrado
+
+![backend1](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/backend1.png?raw=true)
+
+Dentro de nuestro Device Type, del lado izquierdo en el menú buscamos la opción 'Callbacks' y damos click
+
+![backend2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/backend2.png?raw=true)
+
+Los callbacks nos sirven para poder jalar nuestra información del backend Sigfox a nuestra webApp, plataforma, etc.
+Para nuestro ejemplo haremos un callback a Losant
 
