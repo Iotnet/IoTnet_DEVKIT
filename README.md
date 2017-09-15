@@ -224,3 +224,20 @@ Dentro de nuestro Device Type, del lado izquierdo en el menú buscamos la opció
 Los callbacks nos sirven para poder jalar nuestra información del backend Sigfox a nuestra webApp, plataforma, etc.
 Para nuestro ejemplo haremos un callback a Losant
 
+Dentro de la sección 'Callbacks' damos click en 'New', seguido daremos click en 'Custom Callback'
+
+![callback](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/callback.png?raw=true)
+
+En la ventana que nos aparece, configuraremos nuestro callback de la siguiente manera:
+
+![callback1](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/callback1.png?raw=true)
+
+-	Type : Data & Uplink
+-	Channel: URL // 
+- 	Custom Payload Config : Variables personalizadas, decodificación del mensaje hexadecimal
+-	URL Pattern : URL a la que le enviaremos la información del dispositivo
+-	Use HTTP method : POST	
+-	Content type : Application/json
+
+
+Así nuestro callback quedará listo para poder recibir la información en Losant.
