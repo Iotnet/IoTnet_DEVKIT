@@ -36,7 +36,7 @@ En la siguiente imagen se muestra el pinout del Devkit, de manera que se puedan 
 Programación
 ------------
 
-Para cargar un programa a la tarjeta, primero se deben quitar los jumpers tal como se muestra en la imagen. TENER CUIDADO AL QUITAR LOS JUMPERS.
+Para cargar un programa a la tarjeta, primero se deben quitar los jumpers (o jumper, se el caso) tal como se muestra en la imagen. TENER CUIDADO AL QUITAR LOS JUMPERS.
 
 ![dev1](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev1.png?raw=true)
 
