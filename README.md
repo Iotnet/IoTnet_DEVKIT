@@ -266,6 +266,8 @@ Justo entonces nos aparecera la configuración del nodo, el cual configuraremos 
 
 -	State : 
 	-	Data Metod: Individual Fields 
+![callback4](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/callback4.png?raw=true)
+	
 	
 	Dentro de esta parte veremos que ya esta preconfigurado neustro campo Temperatura al cual le hace falta el valor asignado. Dentro de 'Value' colocaremos el Json path en donde llegaba la información de Sigfox de la siguiente manera
 		Value : {data.query.temp}
