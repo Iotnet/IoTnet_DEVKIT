@@ -266,6 +266,7 @@ Justo entonces nos aparecera la configuración del nodo, el cual configuraremos 
 
 -	State : 
 	-	Data Metod: Individual Fields 
+	
 ![callback4](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/callback4.png?raw=true)
 	
 	
