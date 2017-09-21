@@ -19,6 +19,14 @@ IoTnet_DEVKIT
 	
 -	[Integración en Losant](#integración-en-losant)
 
+	-	[Webhook](#webhook)
+	
+	-	[Device](#device)
+	
+	-	[Workflow](#workflow)
+	
+	-	[Backend](#backend)
+
 Introducción
 ------------
 
