@@ -27,6 +27,8 @@ IoTnet_DEVKIT
 	
 	-	[Backend](#backend)
 
+	-	[Dashboard](#dashboard)
+	
 Introducción
 ------------
 
@@ -283,5 +285,28 @@ Dentro de esta parte veremos que ya esta preconfigurado nuestro campo Temperatur
 Finalmete damos click en 'Deploy Workflow'
 
 De esta manera nuestra información proveniente de Sigfox quedará almacenada en nuestro Device para posteriormente mostrarla en el Dashboard de Losant.
+
+### Dashboard
+
+Con la información ya almacenada en nuestro device en Losant. Podemos visualizarla en un Dashboard sencillo.
+
+Para ello iremos a la parte superior y daremos click en 'Dashboards', seguido de 'Create Dashboard'.
+
+Le daremos el nombre que queramos y damos click en 'Create Dashboard'.
+
+Nos mostrará distintos wodgets que podemos elegir para mostrar la informacion en la forma que queramos. Para este ejemplo seleccionaremos 'Gauge' y damos click en 'Customize'
+
+![dashboard](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dashboard.png?raw=true)
+
+Siguiendo la siguiente configuración, le damos el nombre que queramos y buscamos por nuestra aplicación anteriormente creada.
+
+![dashboard1](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dashboard1.png?raw=true)
+
+En la parte de 'Block data', en Device buscaremos por el nuestro creado anteriormente
+En Attribute seleccionamos Temperatura 
+En Label podemos colocar las unidades de la informacion que estemos mostrando o simplemente a que se refiere ese Widget.
+
+![dashboard2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dashboard2.png?raw=true)
+
 
 
