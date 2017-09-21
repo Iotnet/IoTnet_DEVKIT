@@ -207,6 +207,7 @@ Ahora, buscaremos el nodo 'Debug'. Este nodo nos sirve para observar que esta su
 
 ![workflow2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/workflow2.png?raw=true)
 
+Ahora presionaremos en 'Deploy Workflow' para guardar nuestro diagrama de flujo y quede listo para recibir información
 Dejaremos esta parte pendiente para continuar configurando el backend en Sigfox.
 
 
@@ -241,3 +242,11 @@ En la ventana que nos aparece, configuraremos nuestro callback de la siguiente m
 
 
 Así nuestro callback quedará listo para poder recibir la información en Losant.
+
+Ahora conectado nuestro sensor de temperatura y el Devkit con el código cargado, procederemos a apretar el botón para enviar la información de temperatura a Losant.
+Al hacer esto iremos al diagrama de flujo previamente creado y del lado derecho presionaremos en 'Debug' 
+
+Ahí aparecera toda la información relacionada con el nodo 'Debug'. 
+
+![callbac22](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/callback2.png?raw=true)
+
