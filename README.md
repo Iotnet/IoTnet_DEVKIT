@@ -248,5 +248,27 @@ Al hacer esto iremos al diagrama de flujo previamente creado y del lado derecho 
 
 Ahí aparecera toda la información relacionada con el nodo 'Debug'. 
 
-![callbac22](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/callback2.png?raw=true)
+![callback2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/callback2.png?raw=true)
 
+Cada vez que presionamos el botón del Devkit, nos aparecera nueva información relacionada a Losant y al Devkit, en particular hay un Path dentro de ese formato Json que nos interesa el cual es : 'data.query.temp'
+
+En la cual Losant esta recibiendo la informacion proveniente del Devkit y de Sigfox. 
+
+Tal cual esta llegando la información no se esta guardando en ningun lado por lo tanto tenemos que guardar de alguna manera esa información y para ello haremos uso de nuestro 'device virtual' previamente creado.
+
+En nuestro diagrama de flujo buscaremos por el nodo 'Device state' y lo agregaremos a nuestro diagrama de flujo de la siguiente manera.
+
+![callback3](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/callback3.png?raw=true)
+
+Justo entonces nos aparecera la configuración del nodo, el cual configuraremos de la siguiente manera:
+
+-	Device : Marcamos la opción 'Select a specific device' y en la lista buscamos por nuestro device creado anteriormente
+
+-	State : 
+	-	Data Metod: Individual Fields 
+	
+	Dentro de esta parte veremos que ya esta preconfigurado neustro campo Temperatura al cual le hace falta el valor asignado. Dentro de 'Value' colocaremos el Json path en donde llegaba la información de Sigfox de la siguiente manera
+		Value : {data.query.temp}
+		
+
+De esta manera nuestra información proveniente de Sigfox quedará almacenada en nuestro Device para posteriormente usarla en el Dashboard de Losant
