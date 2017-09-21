@@ -269,6 +269,9 @@ Justo entonces nos aparecera la configuración del nodo, el cual configuraremos 
 	
 	Dentro de esta parte veremos que ya esta preconfigurado neustro campo Temperatura al cual le hace falta el valor asignado. Dentro de 'Value' colocaremos el Json path en donde llegaba la información de Sigfox de la siguiente manera
 		Value : {data.query.temp}
-		
 
-De esta manera nuestra información proveniente de Sigfox quedará almacenada en nuestro Device para posteriormente usarla en el Dashboard de Losant
+Finalmete damos click en 'Deploy Workflow'
+
+De esta manera nuestra información proveniente de Sigfox quedará almacenada en nuestro Device para posteriormente usarla en el Dashboard de Losant.
+
+
