@@ -35,6 +35,8 @@ IoTnet_DEVKIT
 	
 	-	[Integración con Amazon Web Services](#integración-con-amazon-web-services)
 	
+	-	[Integración con Ubidots](#integración-con-ubidots)
+	
 Introducción
 ------------
 
@@ -321,6 +323,8 @@ En Label podemos colocar las unidades de la informacion que estemos mostrando o 
 ### Integración con Microsoft Azure
 
 ### Integración con Amazon Web Services
+
+### Integración con Ubidots
 
 
 
