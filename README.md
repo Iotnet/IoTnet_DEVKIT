@@ -33,7 +33,7 @@ IoTnet_DEVKIT
 		
 	-	[Integración con Microsoft Azure](#integración-con-microsoft-azure)
 	
-	-	[Integración con Amazon Web Services(AWS)](#integración-con-amazon-web-services(aws))
+	-	[Integración con Amazon Web Services(AWS)](#integración-con-amazon-web-services(AWS))
 	
 Introducción
 ------------
