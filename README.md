@@ -130,7 +130,7 @@ Revisando los mensajes del dispositivo, veremos que ahora debajo del dato enviad
 Creación de Callbacks
 ---------------------
 
-A continuacion se mostrará como realizar los Callbacks hacia diferentes plataformas, es decir, mandar la información hacia una plataforma específica para presentar la información enviada por el Devkit de manera mas intuitiva y facil de entender.
+A continuacion se mostrará como realizar los Callbacks hacia diferentes plataformas, es decir, mandar la información hacia una plataforma específica para presentar la información enviada por el Devkit de manera mas intuitiva y facil de entender. Para entender mas sobre los callbacks ir al siguiente link: [Callback](https://github.com/Iotnet/Callback)
 
 ### Integración en Losant
 
