@@ -180,7 +180,7 @@ Esta URL la copiaremos y guardaremos para usarla posteriormente para configurar 
 
 ### Device
 
-Ahora, configuraremos el device en donde Losant guardará los datos provenientes de Sigfox
+Ahora, configuraremos el device en donde Losant guardará los datos provenientes de Sigfox.
 En nuestra pantalla principal de la aplicacion, daremos click en 'Devices', seguido daremos click en 'Create new device'
 
 ![createdev](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/createdev.png?raw=true)
