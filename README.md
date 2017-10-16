@@ -30,6 +30,10 @@ IoTnet_DEVKIT
 		-	[Backend](#backend)
 
 		-	[Dashboard](#dashboard)
+		
+	-	[Integración con Microsoft Azure](#integración-con-microsoft-azure)
+	
+	-	[Integración con Amazon Web Services(AWS)](#integración-con-amazon-web-services(aws))
 	
 Introducción
 ------------
@@ -313,6 +317,10 @@ En Attribute seleccionamos Temperatura
 En Label podemos colocar las unidades de la informacion que estemos mostrando o simplemente a que se refiere ese Widget.
 
 ![dashboard2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dashboard2.png?raw=true)
+
+### Integración con Microsoft Azure
+
+### Integración con Amazon Web Services(AWS)
 
 
 
