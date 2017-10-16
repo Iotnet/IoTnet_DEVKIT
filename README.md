@@ -17,7 +17,9 @@ IoTnet_DEVKIT
 
 	-	[Sensor de Temperatura](#sensor-de-temperatura)
 	
--	[Integración en Losant](#integración-en-losant)
+-	[Creación de Callbacks](#creación-de-callbacks)
+	
+	-	[Integración en Losant](#integración-en-losant)
 
 	-	[Webhook](#webhook)
 	
@@ -121,9 +123,13 @@ Revisando los mensajes del dispositivo, veremos que ahora debajo del dato enviad
 
 ![dev9](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev9.png?raw=true)
 
-
-Integración en Losant
+Creación de Callbacks
 ---------------------
+
+A continuacion se mostrará como realizar los Callbacks hacia diferentes plataformas, es decir, mandar la información hacia una plataforma específica para presentar la información enviada por el Devkit de manera mas intuitiva y facil de entender.
+
+###Integración en Losant
+
 Para esta parte utilizaremos el ejemplo del sensor de temperatura anterior. 
 
 Ahora que el backend está recibiendo los mensajes del módulo. Procederemos a visualizar los datos en [Losant](https://www.losant.com/), plataforma dedicada al internet de las cosas. En donde se pueden visualizar, analizar datos provenientes de dispositivos IoT.
