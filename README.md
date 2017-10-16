@@ -152,9 +152,12 @@ Enseguida daremos click en 'Create Application'
 
 Dentro de nuestra aplicacíon configuraremos 3 cosas: 
 
-1: Webhook - Url en donde se enviarán todos los datos desde el backend a la plataforma
-2: Device - Dispositivo en donde Losant guardará la informacion proveniente del Devkit para posteriormente mostrarla en un dashboard
-3: Workflow - Diagrama de flujo que se activará cada vez que haya un request por parte del backend de Sigfox
+<br />
+1: Webhook - Url en donde se enviarán todos los datos desde el backend a la plataforma.
+<br />
+2: Device - Dispositivo en donde Losant guardará la informacion proveniente del Devkit para posteriormente mostrarla en un dashboard.
+<br />
+3: Workflow - Diagrama de flujo que se activará cada vez que haya un request por parte del backend de Sigfox.
 
 ### Webhook
 
