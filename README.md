@@ -33,7 +33,7 @@ IoTnet_DEVKIT
 		
 	-	[Integración con Microsoft Azure](#integración-con-microsoft-azure)
 	
-	-	[Integración con Amazon Web Services(AWS)](#integración-con-amazon-web-services(AWS))
+	-	[Integración con Amazon Web Services(AWS)](#integración-con-amazon-web-services)
 	
 Introducción
 ------------
@@ -320,7 +320,7 @@ En Label podemos colocar las unidades de la informacion que estemos mostrando o 
 
 ### Integración con Microsoft Azure
 
-### Integración con Amazon Web Services(AWS)
+### Integración con Amazon Web Services
 
 
 
