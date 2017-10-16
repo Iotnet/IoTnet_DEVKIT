@@ -151,7 +151,6 @@ Enseguida daremos click en 'Create Application'
 ![create2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/create2.png?raw=true)
 
 Dentro de nuestra aplicacíon configuraremos 3 cosas: 
-
 <br />
 1: Webhook - Url en donde se enviarán todos los datos desde el backend a la plataforma.
 <br />
