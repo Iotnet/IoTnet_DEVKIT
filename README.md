@@ -138,16 +138,15 @@ A continuación se mostrará como realizar los Callbacks hacia diferentes plataf
 
 Para esta parte utilizaremos el ejemplo del sensor de temperatura anterior. 
 
-Ahora que el backend está recibiendo los mensajes del módulo. Procederemos a visualizar los datos en [Losant](https://www.losant.com/), plataforma dedicada al internet de las cosas. En donde se pueden visualizar, analizar datos provenientes de dispositivos IoT.
-
+Ahora que el backend está recibiendo los mensajes del Devkit, procederemos a visualizar los datos en [Losant](https://www.losant.com/), plataforma dedicada al internet de las cosas en donde se pueden visualizar y analizar datos provenientes de dispositivos IoT, además es facil de usar ya que se configura por medio de diagramas de flujo.
 
 Comenzaremos por crear una cuenta gratuita. Ésta nos permite registrar hasta 100 dispositivos y enviar hasta 1M de payloads.
-Creada la cuenta crearemos una nueva aplicación. Además es facil de usar ya que se configura por medio de diagramas de flujo.
+Una vez hecha la cuenta crearemos una nueva aplicación. 
 
 ![create](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/create.png?raw=true)
 
-EL nombre de la aplicación puede ser cualquiera. Pero que sea facil de reconocer. 
-Seguido daremos click en 'Create Application'
+EL nombre de la aplicación puede ser cualquiera, pero de manera que sea facil de reconocer. 
+Enseguida daremos click en 'Create Application'
 
 ![create2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/create2.png?raw=true)
 
@@ -176,7 +175,7 @@ Notaremos que al momento de crearlo nos genera una URL:
 
 ![webhook5](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/webhook5.png?raw=true)
 
-Esta URL la copiaremos y guardaremos para usarla posteriormente para configurar el callback de Sigfox
+Esta URL la copiaremos y guardaremos para usarla posteriormente para configurar el callback de Sigfox.
 
 ### Device
 
@@ -198,8 +197,8 @@ En la parte de atributos colocamos:
 
 ![createdev3](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/createdev3.png?raw=true)
 
-Debemos de tener en cuenta que información estamos leyendo y enviando desde el dispositivo.
-En este caso estamos enviando unicamente la temperatura del sensor por lo que el tipo de dato que recibira Losant será un número y el nombre de la variable puede ser cualquier pero de nuevo una que identifique nuestra información.
+Debemos de tener en cuenta la información que estamos leyendo y enviando desde el dispositivo.
+En este caso estamos enviando unicamente la temperatura del sensor por lo que el tipo de dato que recibira Losant será un número y el nombre de la variable puede ser cualquiera, pero una que identifique nuestra información.
 
 
 ### Workflow
@@ -229,7 +228,7 @@ Ahora, buscaremos el nodo 'Debug'. Este nodo nos sirve para observar que esta su
 
 ![workflow2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/workflow2.png?raw=true)
 
-Ahora presionaremos en 'Deploy Workflow' para guardar nuestro diagrama de flujo y quede listo para recibir información
+Ahora presionaremos en 'Deploy Workflow' para guardar nuestro diagrama de flujo y quede listo para recibir información.
 Dejaremos esta parte pendiente para continuar configurando el backend en Sigfox.
 
 
