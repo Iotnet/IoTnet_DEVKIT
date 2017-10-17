@@ -413,6 +413,8 @@ y ahora nuestro dashboard tendrá la gráfica de la temperatura.
 
 ![ubi17](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi17.png?raw=true)
 
+Para agregar mas Widget a nuestro dashboard se sigue el mismo procedimiento. 
+
 
 
 
