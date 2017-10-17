@@ -355,9 +355,19 @@ nos desplegara la información sobre el DEVICE TYPE. Selecionaremos CALLBACKS en
 
 ![ubi5](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi5.png?raw=true)
 
-y escogemos CUSTOM CALLBACK
+y seleccionamos CUSTOM CALLBACK
 
 ![ubi6](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi6.png?raw=true)
+
+configuramos el callback de acuerdo a la imagen de abajo y en “URL Pattern” escribimos las siguiente dirección 
+
+http://things.ubidots.com/api/v1.6/devices/{device}/?token=YOUR_TOKEN
+
+seguida del Token que copiamos enseguida de crear nuestra cuenta.
+
+![ubi7](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi7.png?raw=true)
+
+y damos click en OK para terminar el callback. Con esto queda creado el callback hacia Ubidots.
 
 
 
