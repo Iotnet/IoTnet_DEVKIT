@@ -6,7 +6,7 @@ SoftwareSerial mySerial(0, 1); // RX, TX
 
 const int sensorPin = A0;
 const float baselinetime=20.0;
-
+const int boton=6;
 char RespuestaSigfox[50];
 char ID[51];
 char PAC[51];
@@ -18,6 +18,7 @@ void setup()
   mySerial.begin(9600);
   #endif
   //pinMode(4, OUTPUT);
+  pinMode(boton, INPUT);
   pinMode(7, OUTPUT);
   #ifdef SigfoxDeb
   mySerial.println("\n\n\n\n\n\n\n\n\rInicio");
@@ -29,7 +30,9 @@ void leer_sensor()
   String bufer="AT$SF=";
   char payload[20];
   int sensorVal=analogRead(sensorPin);
-  float voltaje=(sensorVal/1024.0)*5.0;
+  float voltaje=(sensorVal/1024.0)*3.3;
+  Serial.print("Voltaje: ");
+  Serial.println(voltaje); 
   Serial.print("Grados Cº: ");
   float temp=((voltaje)*100)+1;
   Serial.println(temp);
@@ -53,8 +56,11 @@ void leer_sensor()
 
 void loop() 
 {
-  leer_sensor();
-  delay(300000);
+  if (digitalRead(boton)==LOW)
+  {
+    leer_sensor();
+    delay(2000);
+  }
 }
 
 void enviarcomandoATSigfox(char* comandoAT){
