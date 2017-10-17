@@ -37,7 +37,7 @@ IoTnet_DEVKIT
 	
 	-	[Integración con Ubidots](#integración-con-ubidots)
 
-		-	[Backend](#backend)
+		-	[Visualización de la información en Ubidots](#visualización-de-la-información-en-Ubidots)
 
 		- 	[Callback hacia Ubidots](#callback-hacia-ubidots)
 
