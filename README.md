@@ -305,7 +305,7 @@ Finalmete damos click en 'Deploy Workflow'
 
 De esta manera nuestra información proveniente de Sigfox quedará almacenada en nuestro Device para posteriormente mostrarla en el Dashboard de Losant.
 
-### Dashboard
+### Dashboard Losant
 
 Con la información ya almacenada en nuestro device en Losant. Podemos visualizarla en un Dashboard sencillo.
 
@@ -413,7 +413,7 @@ y ahora nuestro dashboard tendrá la gráfica de la temperatura.
 
 ![ubi17](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi17.png?raw=true)
 
-Para agregar mas Widget a nuestro dashboard se sigue el mismo procedimiento. 
+Para agregar más Widgets a nuestro dashboard se sigue el mismo procedimiento. 
 
 
 
