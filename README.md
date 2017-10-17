@@ -369,7 +369,14 @@ seguida del Token que copiamos enseguida de crear nuestra cuenta.
 
 y damos click en OK para terminar el callback. Con esto queda creado el callback hacia Ubidots.
 
+### Visualización de la información en Ubidots
 
+Ahora que nuestro Callback esta creado, ya podemos mandar la información de la temperatura de nuestro Devkit hacia la plataforma. Presionamos el botón para mandar la información de la temperatura y en el backend podremos observar el estatus del callback, el cual debe quedar en color verde
+
+![ubi8](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi8.png?raw=true)
+
+
+ 
 
 
 
