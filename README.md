@@ -37,7 +37,9 @@ IoTnet_DEVKIT
 	
 	-	[Integración con Ubidots](#integración-con-ubidots)
 
-		-	[Backend](#backend)		
+		-	[Backend](#backend)
+
+		- 	[Callback hacia Ubidots](#callback-hacia-ubidots)		
 	
 Introducción
 ------------
@@ -343,7 +345,7 @@ Ahora, copiamos y guardamos el token ya que sera necesario posteriormente
 
 ![ubi3](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi3.png?raw=true)
 
-### Backend
+### Callback hacia Ubidots
 
 Enseguida creamos el callback. Vamos al backend a nuestro dispositivo y damos click en el DEVICE TYPE.
 
