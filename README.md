@@ -327,5 +327,24 @@ En Label podemos colocar las unidades de la informacion que estemos mostrando o 
 
 ### Integración con Ubidots
 
+Ahora toca la integración con la plataforma Ubidots. Al igual que en los ejemplos pasados, en este también se utilizará la práctica del sensor de temperatura. Lo primero que se debe hacer es crear una cuenta en el siguiente link [ubidots](https://app.ubidots.com/accounts/signup/).
+
+Una vez creada la cuenta, nos aparecerá lo siguiente
+
+![ubi1](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi1.png?raw=true)
+
+Nos vamos a la esquina superior derecha y damos click en nuestro usuario para desplegar un menú, donde seleccionaremos “API CREDENTIALS”, para obtener un Token que nos permitirá crear el callback. 
+
+![ubi2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi2.png?raw=true)
+
+Ahora, copiamos y guardamos el token ya que sera necesario posteriormente 
+
+![ubi3](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi3.png?raw=true)
+
+
+
+
+
+
 
 
