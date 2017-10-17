@@ -29,7 +29,7 @@ IoTnet_DEVKIT
 	
 		-	[Backend](#backend)
 
-		-	[Dashboard](#dashboard)
+		-	[Dashboard Losant](#dashboard-losant)
 		
 	-	[Integración con Microsoft Azure](#integración-con-microsoft-azure)
 	
@@ -39,7 +39,9 @@ IoTnet_DEVKIT
 
 		-	[Backend](#backend)
 
-		- 	[Callback hacia Ubidots](#callback-hacia-ubidots)		
+		- 	[Callback hacia Ubidots](#callback-hacia-ubidots)
+
+		- 	[Dashboard Ubidots](#dashboard-ubidots)		
 	
 Introducción
 ------------
@@ -383,12 +385,35 @@ si damos click en el nos aparecerá la variable que enviamos, en este caso es la
 
 ![ubi10](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi10.png?raw=true)
 
-finalmente, si damos click, podremos ver los datos en forma de gráfica si como un historial de la información enviada.
+finalmente, si damos click, podremos ver los datos en forma de gráfica, así como un historial de la información enviada.
 
 ![ubi11](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi11.png?raw=true)
 
 ![ubi12](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi12.png?raw=true)
+
+### Dashboard Ubidots
+
+Para crear el dashboard, en la parte superior, damos click en “DASHBOARD”
+
+![ubi13](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi13.png?raw=true)
+
+en la esquina superior derecha seleccionamos “Create Widget”
+
+![ubi14](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi14.png?raw=true)
+
+y tendremos que seleccionar de que tipo lo queremos. En este caso seleccionaremos una gráfica sencilla
+
+![ubi15](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi15.png?raw=true)
  
+seleccionamos nuestro dispositivo así como la variable de nuestro interés, que en este caso es “temp”. Finalmente damos click en “ADD VARIABLE”
+
+![ubi16](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi16.png?raw=true)
+
+y ahora nuestro dashboard tendrá la gráfica de la temperatura.
+
+![ubi17](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi17.png?raw=true)
+
+
 
 
 
