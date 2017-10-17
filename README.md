@@ -341,6 +341,20 @@ Ahora, copiamos y guardamos el token ya que sera necesario posteriormente
 
 ![ubi3](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi3.png?raw=true)
 
+Enseguida creamos el callback. Vamos al backend a nuestro dispositivo y damos click en el DEVICE TYPE.
+
+![ubi4](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi4.png?raw=true)
+
+nos desplegara la información sobre el DEVICE TYPE. Selecionaremos CALLBACKS en el panel izquierdo
+
+![ubi5](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi5.png?raw=true)
+
+y escogemos CUSTOM CALLBACK
+
+![ubi6](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi6.png?raw=true)
+
+
+
 
 
 
