@@ -375,7 +375,19 @@ Ahora que nuestro Callback esta creado, ya podemos mandar la información de la 
 
 ![ubi8](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi8.png?raw=true)
 
+si regresamos a Ubidots, veremos que aparece el ID de nuestro dispositivo
 
+![ubi9](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi9.png?raw=true)
+
+si damos click en el nos aparecerá la variable que enviamos, en este caso es la variable “temp”
+
+![ubi10](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi10.png?raw=true)
+
+finalmente, si damos click, podremos ver los datos en forma de gráfica si como un historial de la información enviada.
+
+![ubi11](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi11.png?raw=true)
+
+![ubi12](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi12.png?raw=true)
  
 
 
