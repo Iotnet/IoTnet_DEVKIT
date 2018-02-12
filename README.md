@@ -1,3 +1,6 @@
+Ir a la versión mas reciente:
+https://github.com/NXTIoT/NXTIoT_DEVKIT
+
 IoTnet_DEVKIT
 =============
 
